@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Meneses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-grid">
+            <nav  id="menu" class="menu">
+                <a href="#">Detalhes</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+       
+    </header>
+    <section id="sobre">
+     <h2>Ola!!</h2>
+     <p>Bom dia, Boa tarde ou Boa Noite, depende do horario que esta lendo isso.
+        Eu me chamo Pedro tenho atualmente tenho 16 anos vivo em São Paulo estou na segunda serie do 
+        ensino medio, estou fazendo curso tecnico na Escola Senai de Informática sobre progamacao de jogos digitais.
+        No meu tempo livre gosto de andar de bicicletar, ir ao parque, ouvir música e jogar online.
+     </p>
+    
+    </section>
+
+    <h2>Pedro Henrique Meneses</h2>
+
+    <img src="Images/Pedro.jfif" alt="Pedro">
+
+    <Section id="tecnologias">
+    <h2>Tecnologias</h2>
+
+    <p>Atualmente tenho conhecimentos em algumas linguagens de pogramacao sendo elas:
+         HTML e CSS, JavaScript e TipeScript.</p>
+</Section>
+
+<section id="contato">
+    <h2>Contate-nos</h2>
+
+    <form onsubmit="solicitarOrcamento(event)">
+        <div class="campo">
+            <label for="campo-nome">Qual é o seu nome?</label>
+            <input required type="campo-nome" type="text" placeholder="Digite seu nome...">
+        </div>
+
+        <div class="campo">
+            <label for="campo-email">Em qual email podemos te responder?</label>
+            <input required type="email" name="" id="campo-email" placeholder="Digite seu email...">
+        </div>
+
+        <div class="campo-textarea">
+            <label for="campo-descricao">Descreva um pouco da sua empresa, e também o problema que está procurando
+                solucionar.</label>
+            <textarea required name="" id="campo-descricao" cols="30" rows="10"
+                placeholder="Descreva sua empresa e o problema que enfrenta..."></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+</section>
+    
+</body>
+</html>
