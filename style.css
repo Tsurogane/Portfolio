@@ -14,7 +14,7 @@ h2 {
     font-size: 28px;
     color: aqua;
     text-align: center;
-    margin-right: 450px;
+    /* margin-right: 450px; */
 }
 
 header {
@@ -81,6 +81,7 @@ header div.container-grid {
     font-size: 28px;
     color: aqua;
     text-align: left;
+    margin-right: 25px;
 }
 
 #sobre p {
@@ -91,26 +92,38 @@ header div.container-grid {
     color: azure;
 }
 
+#detalhes h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: aqua;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+#detalhes img {
+    padding-bottom: 120px;
+}
+
 #tecnologias h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 28px;
     color: aqua;
-    text-align: left;
-    margin-left: 450px;
+    text-align: center;
+    padding-bottom: 120px;
 }
 
 #tecnologias p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 22px;
 
-    text-align: left;
-    margin-left: 400px;
+    text-align: center;
     color: azure;
 }
 
 #contato {
     text-align: center;
 
+    padding-top: 200px;
     padding-bottom: 100px;
     margin-bottom: 100px;
 }
@@ -158,8 +171,8 @@ header div.container-grid {
 .campo input {
     height: 40px;
 
-    color: #9000ff;
-    background-color: aqua;
+    color: #9270dc;
+    background-color: rgb(64, 64, 239);
 
     border: none;
     border-radius: 4px;
@@ -185,8 +198,8 @@ header div.container-grid {
 }
 
 .campo-textarea textarea {
-    color: #9000ff;
-    background-color: aqua;
+    color: #9270dc;
+    background-color: rgb(64, 64, 239);
 
     border: none;
     border-radius: 4px;
@@ -214,8 +227,8 @@ header div.container-grid {
     font-size: 17px;
     font-weight: 600;
 
-    color: #9000ff;
-    background-color: aqua;
+    color: #9270dc;
+    background-color: rgb(64, 64, 239);
 
     border: none;
     border-radius: 4px;
@@ -231,15 +244,60 @@ header div.container-grid {
     background-color: aquamarine;
 }
 
-/* Placeholder */
 #contato form input::placeholder, 
 #contato form textarea::placeholder {
-    color: #9000ff;
+    color: #9270dc;
+}
+
+footer {
+    height: 280px;
+
+    background-color:rgb(64, 64, 239);
+}
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.redes-sociais p {
+    color: white;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    margin-right: 45-px;
+}
+
+.icones-redes {
+    width: 240px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-redes a {
+    color: rgb(255, 255, 255);
+}
+
+.icones-redes a:hover {
+    color: #9270dc;
 }
 
 @media screen and (max-width: 1600px) {
     header {
-        display: none;
+        /* display: none; */
     }
 }
 @media screen and (max-width: 1300px){
